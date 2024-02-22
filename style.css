@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+header{
+    width: auto;
+    height: 140px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(211, 243, 255);
+    text-align: center;
+    font-size: 40px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header abbr{
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 32%, rgba(0,212,255,1) 72%, rgba(255,255,255,1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+body{
+    background-color: wheat;
+}
+.xan {
+    margin: 100px 0px 100px 100px;
+    display: inline-block;
+    width: 1000px;
+    border: 50px;
+    background-color: antiquewhite;
+    border-radius: 80px;
+}
+.xan .photo1{
+    background-image: url(/img/0aea9342da994eb82d822da080104a45.jpeg);
+    width: 740px;
+    height: 480px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 150px;
+    border-radius: 50px;
+}
+.xan h1{
+    text-align: center;
+    font-size: 50px;
+}
+.xan .text1{
+    font-size: 30px;
+    margin: 0px 150px;
+    margin-bottom: 50px;
+}
+
+.esik {
+    display: inline-block;
+    margin: 100px;
+    margin-right: -100px;
+    width: 1000px;
+    border: 50px;
+    background-color: antiquewhite;
+    border-radius: 80px;
+}
+.esik .photo2{
+    background-image: url(/img/9e03fb998c7e951c5bc4fa7c0d21a1ae_1280x720.jpg);
+    width: 740px;
+    height: 480px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 150px;
+    border-radius: 50px;
+}
+.esik h1{
+    text-align: center;
+    font-size: 50px;
+}
+.esik .text1{
+    font-size: 30px;
+    margin: 0px 150px;
+    margin-bottom: 50px;
+}
+
+
+.ai{
+    display: inline-block;
+    margin: 100px;
+    margin-right: -100px;
+    width: 1000px;
+    border: 50px;
+    background-color: antiquewhite;
+    border-radius: 80px;
+}
+.ai .photo3{
+    background-image: url(/img/Кора3.jpg);
+    width: 740px;
+    height: 480px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 150px;
+    border-radius: 50px;
+}
+.ai h1{
+    text-align: center;
+    font-size: 50px;
+}
+.ai .text1{
+    font-size: 30px;
+    margin: 0px 150px;
+    margin-bottom: 50px;
+}
+a {
+    text-align: center;
+    border: 5px solid salmon;
+    background-color: sandybrown;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    margin:  400px ;
+    position: relative;
+    top: 25px;
+    transition: 300ms;
+}
+a:hover{
+    background-color: salmon;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    height: 100px;
+}
